@@ -266,7 +266,7 @@ install(EXPORT BehaviorTreeV3Config
 
 export(TARGETS ${PROJECT_NAME}
     NAMESPACE BT::
-    FILE "${CMAKE_CURRENT_BINARY_DIR}/BehaviorTreeV3Config.cmake")
+    FILE "${CMAKE_CURRENT_BINARY_DIR}/behaviortree_cpp_v3Config.cmake")
 
 export(PACKAGE ${PROJECT_NAME})
 
